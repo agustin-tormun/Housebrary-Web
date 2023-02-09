@@ -1,5 +1,5 @@
-function Home() {
+function HomePage() {
     return(<div className='home'>Home Component</div>);
 }
 
-export default Home;
+export default HomePage;

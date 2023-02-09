@@ -1,43 +1,56 @@
 import React from 'react'
 import * as FaIcons from "react-icons/fa"
-import * as AiIcons from "react-icons/ai"
-import * as IoIcons from "react-icons/io"
+import * as MdIcons from "react-icons/md"
+import * as BsIcons from "react-icons/bs"
+import * as RiIcons from "react-icons/ri"
 
 export const SidebarData = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <FaIcons.FaBook/>,
         cName: 'nav-text'
     },
     {
-        title: 'Reports',
-        path: '/reports',
-        icon: <AiIcons.AiFillHome/>,
+        title: 'Reading',
+        path: '/reading',
+        icon: <FaIcons.FaBookOpen/>,
         cName: 'nav-text'
     },
     {
-        title: 'Products',
-        path: '/products',
-        icon: <AiIcons.AiFillHome/>,
+        title: 'Finished',
+        path: '/finished',
+        icon: <MdIcons.MdBookmarkAdded/>,
         cName: 'nav-text'
     },
     {
-        title: 'Team',
-        path: '/team',
-        icon: <AiIcons.AiFillHome/>,
+        title: 'Favorite',
+        path: '/favorites',
+        icon: <BsIcons.BsBookmarkHeartFill/>,
         cName: 'nav-text'
     },
     {
-        title: 'Messages',
-        path: '/messages',
-        icon: <AiIcons.AiFillHome/>,
+        title: 'Wishlist',
+        path: '/wishlist',
+        icon: <FaIcons.FaShoppingBag/>,
         cName: 'nav-text'
     },
     {
-        title: 'Support',
-        path: '/support',
-        icon: <AiIcons.AiFillHome/>,
+        title: 'Borrowed',
+        path: '/borrowed',
+        icon: <RiIcons.RiContactsBook2Fill/>,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Abandoned',
+        path: '/abandoned',
+        icon: <RiIcons.RiBookmark2Fill/>,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Add New Book',
+        path: '/add-book',
+        icon: <MdIcons.MdAddCircle/>,
         cName: 'nav-text'
     },
 ]

@@ -18,7 +18,7 @@
 
 .home,
 .reports,
-.products {
+.products, .add-book {
     display: flex;
     height: 90vh;
     align-items: center;
